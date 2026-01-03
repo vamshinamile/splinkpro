@@ -1,0 +1,9 @@
+✅ Entered first name: MobileUniqueEmail
+✅ Entered last name: Test
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: athlete1760432494@otsi.co.in
+✅ Entered mobile number: 9274624685
+✅ Clicked Create button
+Toast appeared: Mobile number already exists
+✅ Clicked Cancel button

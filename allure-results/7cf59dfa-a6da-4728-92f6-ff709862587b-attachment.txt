@@ -1,0 +1,9 @@
+✅ Entered first name: EmailUniqueMobile
+✅ Entered last name: Test
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: nvamshi2225+1760432391@gmail.com
+✅ Entered mobile number: 9511370599
+✅ Clicked Create button
+Toast appeared: Email already exists
+✅ Clicked Cancel button

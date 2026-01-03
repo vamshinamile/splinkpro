@@ -1,0 +1,6 @@
+✅Enter email 12345
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Email Address
+*: Invalid Email
+✅Enter email narayan321@gmail.com

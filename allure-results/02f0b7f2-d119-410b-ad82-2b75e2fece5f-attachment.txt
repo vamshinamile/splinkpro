@@ -1,0 +1,6 @@
+✅ Entered first name: uday
+✅ Entered last name: kiran
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: narayan321@gmail.com
+✅ Entered mobile number: 9414649519

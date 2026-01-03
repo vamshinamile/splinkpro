@@ -1,0 +1,5 @@
+✅Enter first name12345
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+First Name
+*: First Name must include at least one alphabetic character

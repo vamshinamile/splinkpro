@@ -1,0 +1,7 @@
+✅Enter mobile number 0901002289
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Mobile Number
+*: Invalid mobile number
+✅Enter mobile number 9876543210
+✅ Clicked Cancel button

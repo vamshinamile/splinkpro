@@ -40,7 +40,7 @@ def test_search_athlete_select(driver):
     page = AssignAthletesToBatchPage(driver)
     page.click_search_button()
     # page.search_and_select_athlete(athlete_data["first_name"])
-    page.search_and_select_athlete("jhon")
+    page.search_and_select_athlete("Nagaraju")
     time.sleep(2)  
 @pytest.mark.usefixtures("driver")
 def test_select_payment_fully_paid(driver):

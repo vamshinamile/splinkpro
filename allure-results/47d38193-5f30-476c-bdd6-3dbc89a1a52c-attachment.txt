@@ -1,0 +1,2 @@
+✅ Clicked Create button
+Toast appeared: Athlete Onboarding Successful

@@ -1,5 +1,6 @@
 
 import pytest
+import time
 from pages.academy_overview_page import AcademyOverviewPage
 
 @pytest.mark.usefixtures("driver")
@@ -36,6 +37,7 @@ def test_compare_coach_count_is_same_displayed_in_overview_and_coach_tab(driver)
     coachTab_coach_count = page.coachTab_count_coaches()
     # Get coaches count in overview tab
     overview_coach_count = page.get_overview_coach_count()
+    time.sleep(2)
     # Compare coaches count in overview and coaches tab
     assert coachTab_coach_count == overview_coach_count, (
         f"❌ Mismatch! Overview: {overview_coach_count}, Coaches Tab: {coachTab_coach_count}"

@@ -28,7 +28,7 @@ def test_click_on_add_coach_button(driver):
 @pytest.mark.usefixtures("driver")
 def test_select_coach_in_the_list(driver):
     page = AssignCoachToBatchPage(driver)   
-    page.click_coach_by_name("Jane Smith")
+    page.click_coach_by_name("Rahul Dravid")
 
 @pytest.mark.usefixtures("driver")
 def test_confirm_add_coach_to_batch(driver):

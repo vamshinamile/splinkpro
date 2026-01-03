@@ -1,0 +1,6 @@
+✅ Entered first name: uday
+✅ Entered last name: kiran
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: athlete1760356326@otsi.co.in
+✅ Entered mobile number: 7010022788

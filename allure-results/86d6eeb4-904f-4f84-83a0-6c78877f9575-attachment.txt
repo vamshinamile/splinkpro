@@ -1,0 +1,9 @@
+✅ Entered first name: rama
+✅ Entered last name: Doe
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: athlete1759812851@otsi.co.in
+✅ Entered mobile number: 7010022788
+✅ Clicked Create button
+Toast appeared: Mobile number already exists
+✅ Clicked Cancel button

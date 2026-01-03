@@ -13,7 +13,7 @@ class AssignAthletesToBatchPage:
     # Locators
     programs_tab = (By.XPATH, "//button[.//span[text()='Programs']]")
     ADD_ATHLETE_BTN = (By.XPATH, "//button[contains(.,'+ Add Athlete')]")
-    SEARCH_BTN = (By.XPATH, "//button[contains(.,'Select athlete...')]")
+    SEARCH_BTN = (By.XPATH, "//button[contains(.,'Select Athlete...')]")
     ATHLETE_SEARCH_INPUT = (By.XPATH, "//input[@type='text' and @placeholder='Search athletes...']")
     ATHLETE_RADIO = (By.XPATH, "//div[@class='mr-2 mt-1 size-4 border rounded-full p-0.5 border-primary']")
     PAYMENT_DROPDOWN = (By.XPATH, "//button[@role='combobox' and .//span[contains(.,'Select payment status')]]")

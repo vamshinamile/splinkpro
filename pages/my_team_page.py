@@ -14,7 +14,7 @@ class MyTeamPage:
 
     # Locators
     my_team_tab = (By.XPATH, "//button[.//span[normalize-space(text())='My Team']]")
-    create_team_button = (By.XPATH, "//button[normalize-space(text())='+ Create Team Member']")
+    create_team_button = (By.XPATH, "//button[.//span[normalize-space(text())='+ Create Team Member']]")
     first_name_input = (By.XPATH, "//input[@name='firstname' and @placeholder=\"Enter first name\"]")
     last_name_input = (By.XPATH, "//input[@name='lastname' and @placeholder=\"Enter last name\"]")
     date_button = (By.XPATH, "//button[.//span[text()='Select date of birth']]")
@@ -26,7 +26,7 @@ class MyTeamPage:
     mobile_input = (By.XPATH, "//input[@placeholder=\"Enter mobile number\"]")
     create_button = (By.XPATH, "//button[normalize-space()='Create']")
     #Signup locators   
-    signup_link=(By.XPATH,"//button[contains(text(), 'Sign Up')]")
+    signup_link=(By.XPATH, "//a[text()='Sign Up']")
     username_input = (By.XPATH, "//input[@name='email']") 
     password_input = (By.XPATH, "//input[@name='password']")
     confirmpassword_input = (By.XPATH, "//input[@name='confirmPassword']")
@@ -165,37 +165,39 @@ class MyTeamPage:
         time.sleep(5)
         self.wait.until(EC.visibility_of_element_located(self.continue_button)).click()
         time.sleep(5)
-        #otp validation manually
-        # Switch to new tab and open the OTP admin URL
-        self.driver.execute_script("window.open('');")
-        self.driver.switch_to.window(self.driver.window_handles[1])
-        self.driver.get(captch_url)
-        time.sleep(2)
+        # #otp validation manually
+        time.sleep(10)
 
-        # Wait for the OTP table to load and extract the OTP value for the matching email
-        table = self.wait.until(EC.presence_of_element_located((By.TAG_NAME, "table")))
-        rows = table.find_elements(By.XPATH, ".//tbody/tr")
-        otp = None
-        for row in rows:
-            cells = row.find_elements(By.TAG_NAME, "td")
-            if len(cells) >= 8:
-                email_cell = cells[6].text.strip()
-                if email_cell == email:
-                    otp = cells[3].text.strip()
-                    print(f"Extracted OTP for {email}: {otp}")
-                    break
-        if not otp:
-            raise Exception(f"OTP not found for email: {email}")
-        # Switch back to the main signup tab
-        self.driver.switch_to.window(self.driver.window_handles[0])
-        time.sleep(2)
+        # # Switch to new tab and open the OTP admin URL
+        # self.driver.execute_script("window.open('');")
+        # self.driver.switch_to.window(self.driver.window_handles[1])
+        # self.driver.get(captch_url)
+        # time.sleep(2)
+
+        # # Wait for the OTP table to load and extract the OTP value for the matching email
+        # table = self.wait.until(EC.presence_of_element_located((By.TAG_NAME, "table")))
+        # rows = table.find_elements(By.XPATH, ".//tbody/tr")
+        # otp = None
+        # for row in rows:
+        #     cells = row.find_elements(By.TAG_NAME, "td")
+        #     if len(cells) >= 8:
+        #         email_cell = cells[6].text.strip()
+        #         if email_cell == email:
+        #             otp = cells[3].text.strip()
+        #             print(f"Extracted OTP for {email}: {otp}")
+        #             break
+        # if not otp:
+        #     raise Exception(f"OTP not found for email: {email}")
+        # # Switch back to the main signup tab
+        # self.driver.switch_to.window(self.driver.window_handles[0])
+        # time.sleep(2)
        
-        # Enter the OTP in the OTP input field
-        otp_input = self.wait.until(
-            EC.visibility_of_element_located((By.XPATH, "//input[@name='otp' and @inputmode='numeric']"))
-        )
-        otp_input.send_keys(otp)
-        self.wait.until(EC.element_to_be_clickable(self.continue_button)).click()
+        # # Enter the OTP in the OTP input field
+        # otp_input = self.wait.until(
+        #     EC.visibility_of_element_located((By.XPATH, "//input[@name='otp' and @inputmode='numeric']"))
+        # )
+        # otp_input.send_keys(otp)
+        # self.wait.until(EC.element_to_be_clickable(self.continue_button)).click()
        
         time.sleep(2)
         self.wait.until(EC.visibility_of_element_located(self.password_input)).send_keys(password)

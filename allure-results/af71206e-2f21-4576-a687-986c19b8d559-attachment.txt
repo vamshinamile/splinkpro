@@ -1,0 +1,7 @@
+Clicked On Login button
+Mandatory field validations are captured:
+Email: Email is required
+Password: Password is required
+Enter Captcha: Captcha is required
+✅ 'email' matched → emailisrequired
+✅ 'password' matched → passwordisrequired

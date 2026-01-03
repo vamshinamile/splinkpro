@@ -1,0 +1,13 @@
+✅ Entered first name: Child4
+✅ Entered last name: Child4
+✅ Selected DOB year: 2020
+✅ Gender Selected
+✅ Entered email: nvamshi2225+1760432504@gmail.com
+✅ Entered mobile number: 9106220615
+✅ Entered email: nvamshi2225+1760432504@gmail.com
+Auto-filled Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9703301041
+Expected Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9703301041
+✅ Entered mobile number: 9703301041
+✅ Clicked Create button
+Error: Message: 
+

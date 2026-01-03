@@ -1,0 +1,28 @@
+Entered username:dummy@gmail.com
+Entered password:Test@123
+Clicked On Login button
+Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xbbfea3+66515]
+	GetHandleVerifier [0x0xbbfee4+66580]
+	(No symbol) [0x0x9adc48]
+	(No symbol) [0x0x9f8704]
+	(No symbol) [0x0x9f8aab]
+	(No symbol) [0x0xa3f482]
+	(No symbol) [0x0xa1b214]
+	(No symbol) [0x0xa3cba7]
+	(No symbol) [0x0xa1afc6]
+	(No symbol) [0x0x9ec2ca]
+	(No symbol) [0x0x9ed154]
+	GetHandleVerifier [0x0xe173d3+2521347]
+	GetHandleVerifier [0x0xe12353+2500739]
+	GetHandleVerifier [0x0xbe7cf4+229924]
+	GetHandleVerifier [0x0xbd8258+165768]
+	GetHandleVerifier [0x0xbded0d+193085]
+	GetHandleVerifier [0x0xbc81b8+100072]
+	GetHandleVerifier [0x0xbc8350+100480]
+	GetHandleVerifier [0x0xbb260a+11066]
+	BaseThreadInitThunk [0x0x7641fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+

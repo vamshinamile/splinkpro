@@ -1,0 +1,8 @@
+✅ Entered first name: CoachAthlete
+✅ Entered last name: Test
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: jane.samsith1@example.com
+✅ Entered mobile number: 9876543210
+✅ Clicked Create button
+Toast appeared: Athlete Onboarding Successful

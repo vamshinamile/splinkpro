@@ -1,0 +1,5 @@
+✅Enter last nameAA
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Last Name
+*: Last Name must be at least 3 characters long

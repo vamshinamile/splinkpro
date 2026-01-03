@@ -1,0 +1,13 @@
+✅ Entered first name: Child2
+✅ Entered last name: Child2
+✅ Selected DOB year: 2020
+✅ Gender Selected
+✅ Entered email: athlete1760424034@otsi.co.in
+✅ Entered mobile number: 9483354445
+✅ Entered email: nvamshi22251760424003@gmail.com
+Auto-filled Parent First Name: ParentFirst
+Expected Parent First Name: ParentFirst
+Auto-filled Parent Last Name: ParentLast
+Auto-filled Parent Mobile: 9832480547
+✅ Clicked Create button
+Toast appeared: Athlete Onboarding Successful

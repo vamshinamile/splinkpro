@@ -1,0 +1,11 @@
+✅ Entered first name: Child3
+✅ Entered last name: Child3
+✅ Selected DOB year: 2020
+✅ Gender Selected
+✅ Entered email: nvamshi2225+1760432504@gmail.com
+Auto-filled Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9703301041
+Expected Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9703301041
+✅ Clicked Create button
+Error: Message: 
+
+Child3 onboarded without email/mobile, parent details auto-filled correctly.

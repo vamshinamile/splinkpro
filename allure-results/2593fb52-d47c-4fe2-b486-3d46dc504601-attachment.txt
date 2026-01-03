@@ -1,0 +1,7 @@
+✅ Searched for athlete: child child
+✅ Clicked 3 dots (flex-shrink-0 div) for athlete: child child
+✅ Clicked on 'Edit Athlete' option.
+✅ Entered mobile number: 9885423617
+✅ Clicked Update Athlete button
+Toast appeared: Email already exists
+✅ Clicked Cancel button

@@ -1,0 +1,10 @@
+✅Enter first namekiran
+✅Enter last nameSmith
+✅ Select year of birth 2022
+✅ Gender selected
+✅Enter email coach1760457818@otsi.co.in
+✅Enter mobile number 9876543210
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Date Of Birth
+*: Must be between 18 and 70 years old

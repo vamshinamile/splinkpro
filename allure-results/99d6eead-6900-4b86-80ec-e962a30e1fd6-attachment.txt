@@ -1,0 +1,14 @@
+✅ Entered first name: Child
+✅ Entered last name: Child
+✅ Selected DOB year: 2020
+✅ Gender Selected
+✅ Entered email: nvamshi2225+1760433719@gmail.com
+✅ Entered mobile number: 9312239676
+✅ Entered email: nvamshi2225+1760433719@gmail.com
+✅ Entered first name: ParentFirst
+✅ Entered last name: ParentLast
+✅ Selected DOB year: 1994
+✅ Gender Selected
+✅ Entered mobile number: 9312239676
+✅ Clicked Create button
+Toast appeared: Athlete Onboarding Successful

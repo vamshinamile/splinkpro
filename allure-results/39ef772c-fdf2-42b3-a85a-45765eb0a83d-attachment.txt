@@ -1,0 +1,5 @@
+✅Enter mobile number 8010022
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Mobile Number
+*: Invalid mobile number

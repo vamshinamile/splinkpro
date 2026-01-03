@@ -1,0 +1,32 @@
+✅ Entered first name: uday
+✅ Entered last name: kiran
+✅ Selected DOB year: 1990
+✅ Gender Selected
+✅ Entered email: nvamshi2225+1760432391@gmail.com
+✅ Entered mobile number: 9274624685
+✅ Clicked Create button
+Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x10ffea3+66515]
+	GetHandleVerifier [0x0x10ffee4+66580]
+	(No symbol) [0x0xeedc48]
+	(No symbol) [0x0xf38704]
+	(No symbol) [0x0xf38aab]
+	(No symbol) [0x0xf7f482]
+	(No symbol) [0x0xf5b214]
+	(No symbol) [0x0xf7cba7]
+	(No symbol) [0x0xf5afc6]
+	(No symbol) [0x0xf2c2ca]
+	(No symbol) [0x0xf2d154]
+	GetHandleVerifier [0x0x13573d3+2521347]
+	GetHandleVerifier [0x0x1352353+2500739]
+	GetHandleVerifier [0x0x1127cf4+229924]
+	GetHandleVerifier [0x0x1118258+165768]
+	GetHandleVerifier [0x0x111ed0d+193085]
+	GetHandleVerifier [0x0x11081b8+100072]
+	GetHandleVerifier [0x0x1108350+100480]
+	GetHandleVerifier [0x0x10f260a+11066]
+	BaseThreadInitThunk [0x0x7641fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+

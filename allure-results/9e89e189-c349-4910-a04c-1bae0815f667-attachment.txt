@@ -1,0 +1,3 @@
+✅ Searched for athlete: Sagar Varma
+✅ Clicked 3 dots (flex-shrink-0 div) for athlete: Sagar Varma
+✅ Clicked on 'Edit Athlete' option.

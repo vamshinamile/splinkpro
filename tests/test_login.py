@@ -65,7 +65,7 @@ def test_login_correct_username_correct_password(driver):
     time.sleep(1)
     login_page.create_username(username)
     login_page.clear_field(login_page.password_input)
-    time.sleep(1)
+    time.sleep(8)
     login_page.create_password(password)
     login_page.click_login_button()
     time.sleep(4)

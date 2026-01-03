@@ -1,0 +1,2 @@
+✅ Entered first name: rama
+✅ Entered last name: Doe

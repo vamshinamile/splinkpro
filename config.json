@@ -1,13 +1,15 @@
 {
-    "base_url": "https://dev.splinkpro.ai/sign-in",
+    "base_url1": "https://dev.splinkpro.ai/sign-in",
     "1stg_base_url": "https://stg.splinkpro.ai/sign-in",
     "1base_url":"https://stg.splinkpro.ai/sign-in",
-    "captch_url": "https://dev-api.splinkpro.ai/v1/admin/otp-cache/list",
+    "captch_url1": "https://dev-api.splinkpro.ai/v1/admin/otp-cache/list",
+    "base_url": "https://stg.splinkpro.ai/sign-in",
+    "captch_url": "https://stg-api.splinkpro.ai/v1/admin/otp-cache/list",
     "username": "vamshinamile22@gmail.com",
     "password": "Test@123",
     "1username":"vamshinamile22+academyprod@gmail.com",
     "1password": "Test@1234",
-    "browser": "chrome",
+    "browser": "edge",
     "expected_invalid_mail_error_message":"Invalid email",
     "expected_invalid_password_error_message":"your password is incorrect",
     "expected_empty_email_error_messge":"Email is required",
@@ -85,14 +87,18 @@
         
     },
     "athlete": {
-        "first_name": "rama",   
-        "last_name": "Doe",
+        "first_name": "uday",   
+        "last_name": "kiran",
         "year": "1990",
         "gender_value": "Male",
         "email": "dynamic_email@otsi.co.in",
-        "mobile": "7010022788",
+        "mobile": "7010022771",
          "password":"Test@123",
-        "confirm_password": "Test@123"
+        "confirm_password": "Test@123",
+        "child_year":"2020",
+        "Child_gender_value": "Male",
+        "parent_year":"1994",
+        "parent_gender_value": "Male"
     },
     "coach": {
         "first_name": "kiran",

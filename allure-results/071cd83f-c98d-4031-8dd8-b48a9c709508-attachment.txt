@@ -1,0 +1,6 @@
+✅Enter last name@@@@@
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Last Name
+*: Last Name can only include letters, numbers, spaces, &, ., -, and '
+✅Enter last nameSmith

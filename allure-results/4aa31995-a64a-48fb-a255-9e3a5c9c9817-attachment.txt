@@ -1,0 +1,25 @@
+❌ Failed to clear field ('xpath', "//input[@name='fee']"): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.55)
+Stacktrace:
+	GetHandleVerifier [0x0x5b9d93+65891]
+	GetHandleVerifier [0x0x5b9dd4+65956]
+	(No symbol) [0x0x3cdca8]
+	(No symbol) [0x0x3ac18d]
+	(No symbol) [0x0x441a4e]
+	(No symbol) [0x0x45c519]
+	(No symbol) [0x0x43b076]
+	(No symbol) [0x0x40c37a]
+	(No symbol) [0x0x40d224]
+	GetHandleVerifier [0x0x827e23+2613747]
+	GetHandleVerifier [0x0x822f5a+2593578]
+	GetHandleVerifier [0x0x5e1ac4+229012]
+	GetHandleVerifier [0x0x5d1e58+164392]
+	GetHandleVerifier [0x0x5d880d+191453]
+	GetHandleVerifier [0x0x5c2148+99608]
+	GetHandleVerifier [0x0x5c22e0+100016]
+	GetHandleVerifier [0x0x5ac4ca+10394]
+	BaseThreadInitThunk [0x0x76d1fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x772c82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x772c827e+238]
+

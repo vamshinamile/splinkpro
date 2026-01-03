@@ -1,0 +1,2 @@
+[INFO] Looking for program: new program
+[ERROR] Could not find or click program 'new program': HTTPConnectionPool(host='localhost', port=53274): Max retries exceeded with url: /session/a05b52133783f29304a05ad8fb44dc2f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB05C14B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))

@@ -1,0 +1,2 @@
+✅Cleared field: ('xpath', "//input[@placeholder='Enter Batch name']")
+✅Entered batch name: test data test datatest datatest datatest datatest datatest datatest datatest datatest datatest datatest data

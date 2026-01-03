@@ -1,0 +1,6 @@
+✅Enter first namekiran
+✅Enter last nameSmith
+✅ Select year of birth 1985
+✅ Gender selected
+✅Enter email narayan321@gmail.com
+✅Enter mobile number 9876543210

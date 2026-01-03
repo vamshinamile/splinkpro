@@ -1,0 +1,7 @@
+✅ Entered mobile number: 0901002289
+✅ Clicked Create button
+Mandatory field validations are captured:
+Mobile Number
+*: Invalid mobile number
+✅ Entered mobile number: 9319766748
+✅ Clicked Cancel button

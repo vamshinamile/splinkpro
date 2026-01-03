@@ -1,0 +1,5 @@
+✅Enter email test@email
+✅ Clicked Create Coach button
+Mandatory field validations are captured:
+Email Address
+*: Invalid Email

@@ -1,0 +1,31 @@
+✅ Searched for athlete: child child
+✅ Clicked 3 dots (flex-shrink-0 div) for athlete: child child
+✅ Clicked on 'Edit Athlete' option.
+✅ Entered email: nvamshi2225+1760442199@gmail.com
+✅ Clicked Update Athlete button
+Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x4cfea3+66515]
+	GetHandleVerifier [0x0x4cfee4+66580]
+	(No symbol) [0x0x2bdc48]
+	(No symbol) [0x0x308704]
+	(No symbol) [0x0x308aab]
+	(No symbol) [0x0x34f482]
+	(No symbol) [0x0x32b214]
+	(No symbol) [0x0x34cba7]
+	(No symbol) [0x0x32afc6]
+	(No symbol) [0x0x2fc2ca]
+	(No symbol) [0x0x2fd154]
+	GetHandleVerifier [0x0x7273d3+2521347]
+	GetHandleVerifier [0x0x722353+2500739]
+	GetHandleVerifier [0x0x4f7cf4+229924]
+	GetHandleVerifier [0x0x4e8258+165768]
+	GetHandleVerifier [0x0x4eed0d+193085]
+	GetHandleVerifier [0x0x4d81b8+100072]
+	GetHandleVerifier [0x0x4d8350+100480]
+	GetHandleVerifier [0x0x4c260a+11066]
+	BaseThreadInitThunk [0x0x7641fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+
+✅ Clicked Cancel button

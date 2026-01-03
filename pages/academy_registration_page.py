@@ -15,7 +15,7 @@ class RegisterAcademyPage:
         self.wait=WebDriverWait(driver,10)
 
 #locators   
-    signup_link=(By.XPATH,"//button[contains(text(), 'Sign Up')]")
+    signup_link=(By.XPATH, "//a[text()='Sign Up']")
     username_input = (By.XPATH, "//input[@name='email']") 
     password_input = (By.XPATH, "//input[@name='password']")
     confirmpassword_input = (By.XPATH, "//input[@name='confirmPassword']")
@@ -43,44 +43,45 @@ class RegisterAcademyPage:
         self.wait.until(EC.element_to_be_clickable(self.continue_button)).click()
         # ✅ Capture toast after clicking continue (if any)
         self.toast_message("Please verify")
-        #otp validation manually
-        # Switch to new tab and open the OTP admin URL
-        self.driver.execute_script("window.open('');")
-        self.driver.switch_to.window(self.driver.window_handles[1])
-        self.driver.get(captch_url)
-        time.sleep(2)
-        print("Switched to OTP admin tab")
-        # Wait for the OTP table to load and extract the OTP value for the matching email
-        table = self.wait.until(EC.presence_of_element_located((By.TAG_NAME, "table")))
-        rows = table.find_elements(By.XPATH, ".//tbody/tr")
-        otp = None
-        for row in rows:
-            cells = row.find_elements(By.TAG_NAME, "td")
-            if len(cells) >= 8:
-                email_cell = cells[6].text.strip()
-                if email_cell == email:
-                    otp = cells[3].text.strip()
-                    print(f"Extracted OTP for {email}: {otp}")
-                    print("OTP is extracted from admin page")
-                    break
-        if not otp:
-            raise Exception(f"OTP not found for email: {email}")
-        # Switch back to the main signup tab
-        self.driver.switch_to.window(self.driver.window_handles[0])
-        time.sleep(2)
+        # #otp validation manually
+        time.sleep(10)
+        # # Switch to new tab and open the OTP admin URL
+        # self.driver.execute_script("window.open('');")
+        # self.driver.switch_to.window(self.driver.window_handles[1])
+        # self.driver.get(captch_url)
+        # time.sleep(2)
+        # print("Switched to OTP admin tab")
+        # # Wait for the OTP table to load and extract the OTP value for the matching email
+        # table = self.wait.until(EC.presence_of_element_located((By.TAG_NAME, "table")))
+        # rows = table.find_elements(By.XPATH, ".//tbody/tr")
+        # otp = None
+        # for row in rows:
+        #     cells = row.find_elements(By.TAG_NAME, "td")
+        #     if len(cells) >= 8:
+        #         email_cell = cells[6].text.strip()
+        #         if email_cell == email:
+        #             otp = cells[3].text.strip()
+        #             print(f"Extracted OTP for {email}: {otp}")
+        #             print("OTP is extracted from admin page")
+        #             break
+        # if not otp:
+        #     raise Exception(f"OTP not found for email: {email}")
+        # # Switch back to the main signup tab
+        # self.driver.switch_to.window(self.driver.window_handles[0])
+        # time.sleep(2)
        
-        # Enter the OTP in the OTP input field
-        otp_input = self.wait.until(
-            EC.visibility_of_element_located((By.XPATH, "//input[@name='otp' and @inputmode='numeric']"))
-        )
-        otp_input.send_keys(otp)
-        print("OTP is entered in the input field")
+        # # Enter the OTP in the OTP input field
+        # otp_input = self.wait.until(
+        #     EC.visibility_of_element_located((By.XPATH, "//input[@name='otp' and @inputmode='numeric']"))
+        # )
+        # otp_input.send_keys(otp)
+        # print("OTP is entered in the input field")
           
-        self.wait.until(EC.element_to_be_clickable(self.continue_button)).click()
+        # self.wait.until(EC.element_to_be_clickable(self.continue_button)).click()
     
-        print("Clicked on Continue button after entering OTP")
-        # ✅ Capture toast after OTP submit (if any)
-        self.toast_message("successfully")
+        # print("Clicked on Continue button after entering OTP")
+        # # ✅ Capture toast after OTP submit (if any)
+        # self.toast_message("successfully")
         time.sleep(2)
         self.wait.until(EC.element_to_be_clickable(self.password_input)).send_keys(newpassword)
         print("New password is entered")

@@ -1,0 +1,12 @@
+✅ Entered first name: Child5
+✅ Entered last name: Child5
+✅ Selected DOB year: 2020
+✅ Gender Selected
+✅ Entered email: athlete1760433773@otsi.co.in
+✅ Entered mobile number: 9312239676
+✅ Entered email: nvamshi2225+1760433719@gmail.com
+Auto-filled Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9312239676
+Expected Parent First Name, Last Name, Mobile: ParentFirst ParentLast 9312239676
+✅ Clicked Create button
+Error: Message: 
+

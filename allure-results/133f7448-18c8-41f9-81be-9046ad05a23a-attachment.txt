@@ -1,0 +1,9 @@
+✅ Selected DOB year: 1950
+✅ Gender Selected
+✅ Entered email: narayan321@gmail.com
+✅ Entered mobile number: 9755725150
+✅ Clicked Create button
+Mandatory field validations are captured:
+Date Of Birth
+*: Must be between 3 and 70 years old
+✅ Clicked Cancel button

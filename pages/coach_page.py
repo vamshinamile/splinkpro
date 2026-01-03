@@ -14,15 +14,15 @@ class CoachPage:
 
     # Locators
     coach_tab = (By.XPATH, "//button[.//span[normalize-space(text())='Coaches']]")
-    on_board_coache_button = (By.XPATH, "//button[normalize-space(text())='+ Onboard Coach']")
-    coach_first_name_input = (By.XPATH, "//input[@name='coach_firstname' and @placeholder=\"Enter coach's first name\"]")
-    coach_last_name_input = (By.XPATH, "//input[@name='coach_lastname' and @placeholder=\"Enter coach's last name\"]")
-    date_button = (By.XPATH, "//button[.//span[text()=\"Enter coach's date of birth\"]]")
+    on_board_coache_button = (By.XPATH, "//button[.//span[normalize-space(text())='+ Onboard Coach']]")
+    coach_first_name_input = (By.XPATH, "//input[@name='coach_firstname' and @placeholder=\"Enter Coach first name\"]")
+    coach_last_name_input = (By.XPATH, "//input[@name='coach_lastname' and @placeholder=\"Enter Coach last name\"]")
+    date_button = (By.XPATH, "//button[.//span[text()=\"Enter Coach date of birth\"]]")
     year_dropdown = (By.XPATH, "//select[contains(@class, 'rdp-years_dropdown')]")
     date_value_button = (By.XPATH, "//button[normalize-space(text())='5']")
     gender_dropdown = (By.XPATH, "//button[@role='combobox' and .//span[contains(text(), 'Select gender')]]")
-    email_input = (By.XPATH, "//input[@placeholder=\"Enter coach's email\"]")
-    mobile_input = (By.XPATH, "//input[@placeholder=\"Enter coach's mobile number\"]")
+    email_input = (By.XPATH, "//input[@placeholder=\"Enter Coach email\"]")
+    mobile_input = (By.XPATH, "//input[@placeholder=\"Enter Coach mobile number\"]")
     create_button = (By.XPATH, "//button[normalize-space()='Create Coach']")
     cancel_button=(By.XPATH, "//button[text()='Cancel']")
 

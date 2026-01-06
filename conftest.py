@@ -149,22 +149,55 @@
 #             )
 #             driver.save_screenshot(screenshot_file)
 
-#             if item.config.pluginmanager.hasplugin("html"):
-#                 extra = getattr(rep, "extra", [])
-#                 extra.append(extras.image(screenshot_file))
-#                 rep.extra = extra
+# #             if item.config.pluginmanager.hasplugin("html"):
+# #                 extra = getattr(rep, "extra", [])
+# #                 extra.append(extras.image(screenshot_file))
+# #                 rep.extra = extra
+
+# import os
+# import pytest
+# from selenium import webdriver
+# from selenium.webdriver.edge.service import Service as EdgeService
+
+# @pytest.fixture(scope="session")
+# def driver():
+#     options = webdriver.EdgeOptions()
+#     options.add_argument("--start-maximized")
+
+#     # project root = splinkd
+#     project_root = os.path.dirname(os.path.abspath(__file__))
+
+#     driver_path = os.path.join(
+#         project_root,
+#         "drivers",
+#         "msedgedriver.exe"
+#     )
+
+#     service = EdgeService(executable_path=driver_path)
+#     driver = webdriver.Edge(service=service, options=options)
+
+#     driver.implicitly_wait(10)
+#     yield driver
+#     driver.quit()
 
 import os
 import pytest
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.edge.options import Options
 
 @pytest.fixture(scope="session")
 def driver():
-    options = webdriver.EdgeOptions()
-    options.add_argument("--start-maximized")
+    options = Options()
 
-    # project root = splinkd
+    # REQUIRED for Jenkins / CI
+    options.add_argument("--headless=new")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+
+    # project root (splinkd)
     project_root = os.path.dirname(os.path.abspath(__file__))
 
     driver_path = os.path.join(
